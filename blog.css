@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+.document {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 50px;
+    margin: 10px 100px;
+}
+.main {
+    border: 20px solid #bdc3c7;
+    padding: 20px;
+    margin: 0 100px;
+}
+.date {
+    color: #3498db;
+    text-transform: uppercase;
+    padding: auto;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+/* Gradient trasnparent - color - transparent */
+.styling {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+}
+.heading {
+    color: #2c3e50;
+    font-size: 2.0rem;
+}
+
+.content p:nth-of-type(1){
+    border-left: 4px solid #bdc3c7;
+    padding-left: 5px;
+    font-style: italic;
+}
